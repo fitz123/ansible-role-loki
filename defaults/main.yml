@@ -1,6 +1,7 @@
 loki_version: 2.3.0
 loki_system_user: loki
 loki_system_group: loki
+loki_system_user_create_home: false
 loki_auth_enabled: false
 loki_arguments: []
 loki_server_http_listen_port: 3100

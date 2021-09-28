@@ -10,7 +10,7 @@
     system: true
     shell: "/usr/sbin/nologin"
     group: "{{ loki_system_group }}"
-    createhome: false
+    createhome: "{{ loki_system_user_create_home }}"
 
 - name: "Download loki files"
   become: false
